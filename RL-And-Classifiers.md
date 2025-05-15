@@ -1,18 +1,24 @@
 ---
-title: "Exploring Reinforcement Learning and Classification Algorithms"
-author: "Kyle Lukaszek"
-date: "November 2023"
+title: Exploring Reinforcement Learning And Some More Classification Algorithms
+author: Kyle Lukaszek
+date: November 2023
 tags:
-    - ML
-    - RL
-    - Classification
-    - OpenAI Gym
-    - Q* Learning
-    - Naive Bayes Classifier
-    - Gaussian Mixture Models
-description: "Another adapted assignment Jupyter Notebook from CIS*4780 Computational Intelligence"
+  - ML
+  - RL
+  - Classification
+  - OpenAI
+  - Gym
+  - Q*
+  - Learning
+  - Naive
+  - Bayes
+  - Classifier
+  - Gaussian
+  - Mixture
+  - Models
+description: Final adapted Jupyter Notebook from CIS*4780 Computational Intelligence
 ---
-# Exploring Reinforcement Learning and Classification Algorithms
+# Exploring Reinforcement Learning And Some More Classification Algorithms
 
 This document outlines an exploration of Q-learning for a grid world environment, a Naive Bayes classifier for text categorization, and Gaussian Mixture Models for clustering.
 

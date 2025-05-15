@@ -1,5 +1,5 @@
 ---
-title: Neural Network Exploration for CIFAR-10 Image Classification
+title: Building Multilayer Perceptrons And Validating Them Using CIFAR-10
 author: Kyle Lukaszek
 date: November 2023
 tags:
@@ -13,9 +13,9 @@ tags:
   - K-Fold-Cross-Validation
   - Dataloaders
   - Classification
-description: Adapted assignment Jupyter Notebook from CIS*4780 Computational Intelligence
+description: My second adapted Jupyter Notebook from CIS*4780 Computational Intelligence
 ---
-# Neural Network Exploration for CIFAR-10 Image Classification
+# Building Multilayer Perceptrons And Validating Them Using CIFAR-10
 
 This document details an exploration of Feed-Forward Neural Networks (FFNNs), Deep Neural Networks (DNNs), and Multi-Layer Perceptrons (MLPs) for classifying images from the CIFAR-10 dataset. The focus is on understanding the impact of various hyperparameters and architectural choices.
 
