@@ -3,15 +3,15 @@ title: Exploring Classic ML Models With PyTorch Internals
 author: Kyle Lukaszek
 date: October 2023
 tags:
+  - ML
   - KNN
   - Linear
   - Regression
   - Logistic
   - Regression
-  - K-Fold
-  - Cross-Validation
-  - ML
+  - K-Fold-Cross-Validation
   - Classification
+  - Nearest-Neighbours
 description: Adapted assignment Jupyter Notebook from CIS*4780 Computational Intelligence
 ---
 # Exploring Classic Machine Learning Models with PyTorch: An Implementation Log
