@@ -289,7 +289,7 @@ evaluate_q_learning_agent(grid, episodes_count, epsilon_val, gamma_val, alpha_va
 ```
 Evaluation after 1000 episodes: Steps: 14, Total Reward: -3
 ```
-![](best-route.png)
+![](./images/RL-And-Classifiers/best-route.png)
 
 ### 1.4: Analysis of Q-Learning Performance
 
@@ -324,13 +324,13 @@ fixed_episodes = 1000
 ```
 Evaluation after 1000 episodes: Steps: 14, Total Reward: -3
 ```
-![](best-route.png)
+![](./images/RL-And-Classifiers/best-route.png)
 
 **Example Output for Epsilon: 0.5, Gamma: 1.0**
 ```
 Evaluation after 1000 episodes: Steps: 39, Total Reward: -55
 ```
-![](odd-one.png)
+![](./images/RL-And-Classifiers/odd-one.png)
 
 **Hyperparameter Observations:**
 Consistent with earlier findings, lower `epsilon` values (e.g., 0.1) generally resulted in better final path efficiency (fewer steps, higher total reward) after 1000 episodes. As `epsilon` increased, the agent's path tended to be longer and more erratic due to persistent exploration. The discount factor `gamma` showed less dramatic impact on the final path length in this specific grid and training duration, though values closer to 1 give more weight to future rewards. For simpler grids where the optimal path is relatively short, the impact of `gamma` might be less pronounced than in more complex environments or if a learning curve was plotted.
@@ -590,7 +590,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
-![](scores-by-num-clusters.png)
+![](./images/RL-And-Classifiers/scores-by-num-clusters.png)
 
 The plot of BIC and AIC scores suggests that 2 components (clusters) is a reasonable choice. While AIC might continue to decrease or decrease more sharply for a higher number of components (e.g., around 8 in the original notebook's plot), BIC often penalizes complexity more heavily and can be a better indicator for the number of clusters. The "elbow" or point of diminishing returns in these plots is sought. Here, 2 clusters provides a low BIC and a relatively low AIC without suggesting overfitting that a much higher number of components might with a significantly lower AIC but higher BIC.
 
@@ -662,6 +662,6 @@ ax.legend(handles=legend_elements, title="Clusters")
 
 plt.show()
 ```
-![](3d-cluster.png)
+![](./images/RL-And-Classifiers/3d-cluster.png)
 
 The 3D visualization shows the spatial distribution of the two identified clusters. The differing sizes of points (scaled by 'w') add another layer of information to the plot. Despite some visual overlap in the 2D projection of this 3D space, the silhouette score suggests good separation in the 4-dimensional feature space.

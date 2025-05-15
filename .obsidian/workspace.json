@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement-Learning-And-Classification-Algorithms.md",
+                "file": "RL-And-Classifiers.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Reinforcement-Learning-And-Classification-Algorithms"
+              "title": "RL-And-Classifiers"
             }
           },
           {
@@ -39,10 +39,14 @@
             "id": "92685445899c4f86",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "RL-And-Classifiers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RL-And-Classifiers"
             }
           }
         ],
@@ -167,12 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "RL-And-Classifiers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of RL-And-Classifiers"
             }
           },
           {
@@ -205,6 +210,10 @@
   },
   "active": "92685445899c4f86",
   "lastOpenFiles": [
+    "images/RL-And-Classifiers/best-route.png",
+    "RL-And-Classifiers.md",
+    "Classical-ML.md",
+    "Reinforcement-Learning-And-Classification-Algorithms 1.md",
     "images/Classical-ML/6.png",
     "images/Classical-ML/7.png",
     "images/Classical-ML/5.png",
@@ -212,16 +221,12 @@
     "images/Classical-ML/4.png",
     "images/Classical-ML/2.png",
     "images/Classical-ML/1.png",
-    "images/A3/scores-by-num-clusters.png",
-    "images/A3/best-route.png",
-    "images/A3/odd-one.png",
-    "images/A3/3d-cluster.png",
+    "images/RL-And-Classifiers/scores-by-num-clusters.png",
+    "images/RL-And-Classifiers/odd-one.png",
     "images/Classical-ML",
-    "images/A3",
+    "images/RL-And-Classifiers",
     "images",
     "Apple-Sensor-Kit.md",
-    "Classical-ML.md",
-    "Reinforcement-Learning-And-Classification-Algorithms.md",
     "Welcome.md",
     "Images/Classical-ML",
     "Images/A3",
